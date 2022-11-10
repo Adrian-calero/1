@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./bootstrap5/css/bootstrap.css">
+  <link rel="stylesheet" href="./bootstrap5/css/estilos.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-white bg-white ">
+      <!-- As a heading -->
+
+      <img src="images/logo.svg" alt="insertar SVG con la etiqueta image" class="mx-4">
+
+      <button class="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav mx-3">
+         
+               <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Features
+            </a>
+         <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"><img src ="./images/icon-todo.svg" alt="Mi SVG feliz" class="mx-2 border" />Todo list</a>
+              <a class="dropdown-item" href="#"><img src ="./images/icon-calendar.svg" alt="Mi SVG feliz" class="mx-2 border" />Calendar</a>
+              <a class="dropdown-item" href="#"><img src ="./images/icon-reminders.svg" alt="Mi SVG feliz" class="mx-2 border" />Reminders</a>
+              <a class="dropdown-item" href="#"><img src ="./images/icon-planning.svg" alt="Mi SVG feliz" class="mx-2 border" />Planning</a>
+            </div>
+          </li>
+         
+
+     <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Company
+            </a>
+         <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+
+     
+              <a class="dropdown-item" href="#">History</a>  
+              <a class="dropdown-item" href="#">Our Team</a>
+              <a class="dropdown-item" href="#">Blog</a>
+            </div>
+          </li>
+
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Careers </a>
+          </li>
+    
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About </a>
+          </li>
+
+        </ul>
+        <span class="ms-auto mx-5 border-radaa p-2">
+      <button class="btn" type="button">Login</button>
+      <button class="btn border-dark" type="button">Register</button>
+        </span>
+        
+      </div>
+
+   
+     
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+       
+        <div class="col-7 my-4">
+          <div class="container my-4 col-9 p-5">
+            
+         <div class="pt-4 pb-4">
+           <h1 class="display-3 fw-bolder">Make <br> remote work</h1> </div>
+            <p class="text-muted mt-5 text-justify  container">
+
+            Get your team in sync. no matter your location.  <br> Streamline processes. creare team rituals, and <br>  watch productivity soar.
+        
+           </p>
+
+           <button type="button" class=" fw-bold bg-dark mt-4 text-white px-4 py-2 mx-2 border-radaa">Learn more</button>
+
+       
+           <div class="row ">
+             <div class="pt-4 mt-4">
+             <div class="col-12">
+               <img src="images/client-databiz.svg" alt="insertar SVG con la etiqueta image" class="my-4">
+   
+               <img src="images/client-audiophile.svg" alt="insertar SVG con la etiqueta image" class="my-4 mx-4">
+   
+               <img src="images/client-meet.svg" alt="insertar SVG con la etiqueta image" class="my-4 mx-2">
+   
+               <img src="images/client-maker.svg" alt="insertar SVG con la etiqueta image" class="my-4 mx-4">
+             </div>
+            
+           </div>
+       
+         </div>
+         
+   </div>
+         </div>
+
+
+      
+
+        <div class="col-5">
+          <div class="col-9">
+          <figure class="figure">
+            <img src="./images/image-hero-desktop.png" class="img-fluid float-end my-5" alt="...">
+            
+          </figure>
+          </div>
+      </div>
+      
+      </div>
+ <!--
+
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>--> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
